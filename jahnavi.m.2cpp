@@ -1,0 +1,25 @@
+# include<iostream>
+using namespace std;
+class Account{
+    public:
+    int acc;
+    string name;
+    float balance;
+    void display(){
+        cout<<"Account No:"<<acc
+            <<",Name:"<< name
+            <<",Balance:"<< balance <<endl;
+    }
+};
+int main(){
+    Account a1,a2;
+    a1.acc=1001;
+    a1.name="jahnavi";
+    a1.balance=2500.50;
+    a2.acc=1002;
+    a2.name="manisha";
+    a2.balance=40000.75;
+    a1.display();
+    a2.display();
+    return 0;
+} 
